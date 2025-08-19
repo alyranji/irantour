@@ -2,20 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+h1 {
+  font-size: 40px;
+  font-weight: bold;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+h2,
+.subtitle1 {
+  font-size: 24;
+  font-weight: bold;
+}
+
+.subtitle2 {
+  font-size: 14;
+  font-weight: normal;
+}
+
+.body-large {
+  font-size: 18;
+}
+
+.body-medium {
+  font-size: 14;
+}
+
+.body-small {
+  font-size: 12;
+}
+
+.btn-large-regular {
+  font-size: 16;
+}
+
+.btn-large-bold {
+  font-size: 16;
+  font-weight: bold;
+}
+
+.btn-small {
+  font-size: 14;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
 }

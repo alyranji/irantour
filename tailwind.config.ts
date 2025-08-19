@@ -8,11 +8,17 @@ export default {
   ],
   theme: {
     extend: {
+      dropShadow:{
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        color1:"#FF8300",
+        color2:"#EBF1F7",
+        color3:"#BFD7ED",
+        color4:"#878383",
+        mywhite:"#FAFAFA",
+        myblack:"#1D1D1D"
       },
     },
   },
   plugins: [],
-} satisfies Config;
+};
