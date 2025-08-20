@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import isf from "@/public/isf.jpg";
+import yerevan from "@/public/yerevan.jpg";
 
 function Cta() {
   return (
@@ -22,7 +22,7 @@ function Cta() {
         </div>
         <div className="flex items-center">
           <Image
-            src={isf.src}
+            src={yerevan.src}
             alt="isfahan"
             width={500}
             height={500}
