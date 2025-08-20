@@ -4,6 +4,7 @@ import Advantages from "./components/advantages";
 import SearchBox from "./components/searchBox";
 import Packages from "./components/packages";
 import Cta from "./components/cta";
+import BlogPosts from "./components/blogPosts";
 export default function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Home() {
       <SearchBox />
       <Packages />
       <Cta />
+      <BlogPosts />
     </>
   );
 }
