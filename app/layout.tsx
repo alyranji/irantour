@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Copyright from "@/app/components/Copyright";
 import localFont from "next/font/local";
 import "./globals.css";
 
@@ -33,6 +34,7 @@ export default function RootLayout({
   return (
     <html lang="fa" dir="rtl">
       <body className={`${iranYekan.className} ${rokh.className} antialiased`}>
+        <Copyright />
         <main className="h-[100rem]">{children}</main>
       </body>
     </html>
