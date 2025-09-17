@@ -21,39 +21,6 @@
 - **Icons:** SVG
 - **Build Tool:** Next.js Built-in
 
-## ساختار پروژه 📁
-
-traveling/
-├── app/ # App Router (Next.js 15)
-│ ├── components/ # کامپوننت‌های ریاکت
-│ │ ├── advantages.tsx # بخش مزایا
-│ │ ├── bargasht.tsx # انتخاب تاریخ برگشت
-│ │ ├── blogPosts.tsx # پست‌های وبلاگ
-│ │ ├── button.tsx # کامپوننت دکمه چندمنظوره
-│ │ ├── cta.tsx # بخش دعوت به action
-│ │ ├── Footer.tsx # فوتر
-│ │ ├── header.tsx # هدر
-│ │ ├── maghsad.tsx # انتخاب مقصد
-│ │ ├── mabda.tsx # انتخاب مبدا
-│ │ ├── menu.tsx # منوی 导航
-│ │ ├── packages.tsx # اسلایدر تورها
-│ │ ├── poster.tsx # بنر اصلی
-│ │ ├── raft.tsx # انتخاب تاریخ رفت
-│ │ ├── searchBox.tsx # فرم جستجو
-│ │ └── Copyright.jsx # کپی رایت
-│ ├── fonts/ # فونت‌های محلی
-│ ├── lib/
-│ │ └── cities.js # لیست شهرهای ایران
-│ ├── tours/
-│ │ └── tours.json # داده‌های تورها
-│ ├── globals.css # استایل‌های 全局
-│ ├── layout.tsx # layout اصلی
-│ ├── page.tsx # صفحه اصلی
-│ └── favicon.ico
-├── public/ # فایل‌های استاتیک (عکس‌ها و آیکون‌ها)
-├── package.json
-└── tailwind.config.ts # پیکربندی Tailwind
-
 ## نحوه راه‌اندازی 🚀
 
 1.  **کلوْن کردن پروژه:**
