@@ -1,5 +1,4 @@
 import React from "react";
-import isf from "@/public/isf.jpg";
 import greece from "@/public/greece.jpg";
 import omman from "@/public/omman.webp";
 import cyprus from "@/public/cyprus.jpg";
