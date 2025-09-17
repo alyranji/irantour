@@ -1,12 +1,5 @@
 "use client";
-import { useEffect } from "react";
-import {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-  Autoplay,
-} from "swiper/modules";
+import { Pagination, Scrollbar, Autoplay } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -15,9 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import packageBgIcon from "@/public/packageBg.svg";
 import tours from "@/app/tours/tours.json";
-import brazil from "@/public/rio.jpg";
 
 function Packages() {
   return (
