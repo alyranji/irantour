@@ -19,12 +19,12 @@ const Header = () => {
       </div>
 
       {/* منو برای دسکتاپ */}
-      <div className="hidden md:block">
+      <div className="hidden">
         <Menu />
       </div>
 
       {/* دکمه همبرگر برای موبایل */}
-      <div className="md:hidden">
+      <div className="hidden">
         <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
           {isMenuOpen ? (
             <XMarkIcon className="h-6 w-6" />
