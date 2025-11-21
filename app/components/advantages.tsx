@@ -4,8 +4,8 @@ import calendarIcon from "../../public/Calendar_Check icon.svg";
 import Image from "next/image";
 const Advantages = () => {
   return (
-    <div className="w-[1047px] mx-auto z-10 relative bg-white rounded-3xl -mt-[5%] h-[138px] shadow-[0px_4px_70px_0px_rgba(0,_0,_0,_0.25)] flex items-center ">
-      <div className="w-[766px] mx-auto items-center flex gap-10">
+    <div className="md:max-w-[1047px] w-full h-auto z-10 relative py-7 mx-auto bg-white rounded-3xl -mt-[5%] md:h-[138px] shadow-[0px_4px_70px_0px_rgba(0,_0,_0,_0.25)] flex items-center ">
+      <div className="md:max-w-[766px] mx-auto  items-center flex flex-col md:flex-row  gap-10">
         <div className=" w-[235px] flex items-start">
           <Image src={walletIcon} width={45} height={45} alt="wallet-icon" />
           <div>
